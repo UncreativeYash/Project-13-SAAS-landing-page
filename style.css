@@ -1,0 +1,168 @@
+/* Utility */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;900;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 45px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+
+}
+
+h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+h5 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.blue {
+    color: #28a5e8;
+    text-decoration: underline orange;
+}
+
+.purple {
+    background: #7131cc;
+    border-radius: 10%;
+}
+
+
+/* Header Section */
+
+header {
+    background: #7131cc;
+    color: #ffffff;
+    padding: 40px 80px;
+}
+
+/* nav section */
+.nav-right {
+    gap: 35px;
+}
+
+
+/* Header Content */
+
+.head {
+    margin: 40px 0px;
+    gap: 20px;
+}
+
+.head-left {
+    width: 40%; 
+}
+
+.head-right {
+    height: 400px;
+    margin-bottom: 60px;
+}
+
+
+/* Features Section */
+
+.features {
+    margin: 40px 80px;
+    align-items: flex-start;
+}
+
+/* feature left */
+.feature-left {
+    height: 400px;
+}
+/* feature right */
+.feature-right {
+    width: 50%;
+}
+
+.feature-item {
+    align-items: flex-start;
+}
+.feature-item img {
+    margin-top: 7px;
+    margin-right: 15px;
+}
+/* Bottom Intro */
+
+.bottom {
+    text-align: center;
+}
+
+/* Bottom Cards */
+.bottom-cards {
+    gap: 20px;
+    margin: 80px;
+}
+
+.bottom-card {
+    height: 60%; 
+    width: 250px;
+    position: relative;
+    border-radius: 10%;
+    box-shadow: 6px 10px 9px 0px #292929;
+}
+
+.icon-circle {
+    margin: 20px auto;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background: rgb(229, 206, 255);
+    border-radius: 50%;
+}
+
+.bottom-card img {
+    margin: 20%;
+}
+
+.bottom-card-details{
+    padding: 10px 0px ;
+}
+.bottom-card-details.purple {
+    color: #ffffff;
+    padding: 10px;
+
+}
+
+
+.data-color {
+   background-color: #fbf1ef;
+}
+
+.code-color {
+   background-color: #fbeaea;
+}
+
+.security-color {
+    background-color: #e8f4f7;
+}
+
+.support-color {
+    background-color: #f2e6f4;
+}
