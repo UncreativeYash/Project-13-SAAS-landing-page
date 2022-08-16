@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -67,6 +68,14 @@ header {
     gap: 35px;
 }
 
+.nav-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-style: none;
+    color: #e8f4f7;
+    background-color: #28a5e8;
+}
+
 
 /* Header Content */
 
@@ -76,12 +85,15 @@ header {
 }
 
 .head-left {
-    width: 40%; 
+    width: 45%; 
 }
 
 .head-right {
-    height: 400px;
-    margin-bottom: 60px;
+    width: 400px;
+}
+
+img.head-right {
+    width: 100%;
 }
 
 
@@ -90,11 +102,16 @@ header {
 .features {
     margin: 40px 80px;
     align-items: flex-start;
+    flex-wrap: wrap-reverse;
 }
 
 /* feature left */
 .feature-left {
-    height: 400px;
+    width: 400px;
+}
+
+img.feature-left {
+    width: 100%;
 }
 /* feature right */
 .feature-right {
@@ -103,6 +120,7 @@ header {
 
 .feature-item {
     align-items: flex-start;
+    flex-wrap: nowrap;
 }
 .feature-item img {
     margin-top: 7px;
@@ -116,16 +134,16 @@ header {
 
 /* Bottom Cards */
 .bottom-cards {
-    gap: 20px;
+    gap: 60px;
     margin: 80px;
 }
 
 .bottom-card {
-    height: 60%; 
-    width: 250px;
+    width: 240px;
+    height: 240px;
     position: relative;
     border-radius: 10%;
-    box-shadow: 6px 10px 9px 0px #292929;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .icon-circle {
@@ -165,4 +183,15 @@ header {
 
 .support-color {
     background-color: #f2e6f4;
+}
+
+
+@media screen and (max-width: 768px) {
+    .feature-right {
+        width: 100%;
+    }
+    
+    .head-left {
+        width: 100%; 
+    }
 }
